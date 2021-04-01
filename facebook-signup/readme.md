@@ -106,9 +106,10 @@ Antes de começarmos atente-se alguns sinais:
   Além dessas, preste bastante atenção a indentação.
 
 
+
 Criando e iniciando um repositório (25 min de leitura e execução de comandos):
 
-  Criando um repositório:
+  - Criando um repositório
 
     Antes de começar você deve criar uma pasta onde vai salvar seus projetos e repositórios, prefira sempre pastas o mais próximo possível da raíz, evite colocar dentro de muitas pastas, em algum momento você aprenderá a mexer com 'shell script' e para cada pasta que você precisar entrar precisará escrever um comando.
 
@@ -461,12 +462,13 @@ Criando e iniciando um repositório (25 min de leitura e execução de comandos)
 
         'master' - É o nome dado a branch a qual estamos, geralmente a branch principal é chamada de master ou de main, por sinal usaremos a master, ao longo da sua vida como desenvolvedor verá que existem projetos com dezenas, centenas de branchs. (caso queira saber mais sobre branchs dê uma olhada no seguinte site: https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches em inglês);
 
-      Você pode estar pensando: o que eu fiz ?
 
-      Bem basicamente você aprendeu comandos para verificar, criar, deletar, pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar e por sinal até arquivos escondidos agora você consegue visualizar;
+Você pode estar pensando: o que eu fiz ?
 
-      Além disso, configuramos um ambiente de desenvolvimento independente do seu sistema operacional que não deixará nenhum set da nasa mais qualificado em questão de ambiente para desenvolvermos;
+  Bem basicamente você aprendeu comandos para verificar, criar, deletar, pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar e por sinal até arquivos escondidos agora você consegue visualizar;
 
-      Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível habilidade de lidar com o Git, TODO DESENVOLVEDOR PRECISA SABER E SABER BEM GIT. Programas quebram, códigos falham, pessoas erram, o Git é nossa máquina do tempo, dimensione isso para sua vida e vai entender a força que o Git tem no mundo do desenvolvimento.
+  Além disso, configuramos um ambiente de desenvolvimento independente do seu sistema operacional que não deixará nenhum set da nasa mais qualificado em questão de ambiente para desenvolvermos;
 
-      Meus Parabéns!! Você chegou até aqui!!
+  Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível habilidade de lidar com o Git, TODO DESENVOLVEDOR PRECISA SABER E SABER BEM GIT. Programas quebram, códigos falham, pessoas erram, o Git é nossa máquina do tempo, dimensione isso para sua vida e vai entender a força que o Git tem no mundo do desenvolvimento.
+
+  Meus Parabéns!! Você chegou até aqui!!

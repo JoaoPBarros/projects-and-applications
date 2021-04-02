@@ -468,15 +468,20 @@ Criando e iniciando um repositório:
 
       Você receberá uma mensagem de erro, dizendo que os arquivos 'index.html', 'style.css' e 'script.js' não estão sendo monitorados e para isso devemos adiciona-los aos arquivos a serem monitorados, execute o comando para adicionar:
 
-        Podemos fazer de 3 formas:
+    Podemos fazer de 3 formas:
+    
+       Uma das possibilidade é adicionar um de cada vez,
 
         'git add index.html';
         'git add style.css';
         'git add script.js';
 
+       Assim também é possível, adicionando cada um dos arquivos, porém de uma única vez,
+
         'git add index.html style.css script.js';
 
-          ou a versão mais simples:
+
+       E a versão mais simples, que adiciona todo e qualquer arquivo não monitorado e/ou modificado sem precisar escrever um a um:
 
         'git add .';
 

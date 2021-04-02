@@ -26,12 +26,12 @@ Introdução:
 
 - [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
   
-  - [Hard Way](##'hard-way')
-		- [O Início](###o-início)
-		- [O Meio](###o-meio)
-		- [E o Fim](###e-o-fim)
+- [Hard Way](##'hard-way')
+	- [O Início](###o-início)
+	- [O Meio](###o-meio)
+	- [E o Fim](###e-o-fim)
   
-  - [Easy Way](##'easy-way')
+- [Easy Way](##'easy-way')
 
 - [Iniciando o repositório](#partiu-vscode)
 
@@ -108,20 +108,21 @@ Introdução:
         - CodeMetrics;
         - CSS Peek;
 
-      Esse passo é de extrema importância porque essas extensões auxiliaram nosso desenvolvimento durante todo o projeto.
-      Cada uma delas tem um sentido e ao longo do desenvolvimento você verá a utilidade deles, 
-      para não me extender confie no que digo.
+     Esse passo é de extrema importância porque essas extensões auxiliaram nosso desenvolvimento durante todo o projeto.
+     Cada uma delas tem um sentido e ao longo do desenvolvimento você verá a utilidade deles, 
+     para não me extender confie no que digo.
 
         Existe ainda, caso goste, eu por acaso uso, a extensão de tema:
 
-        - Dracula Official (depois de instalado você pode escolher entre dracula e dracula soft, eu prefiro o dracula);
+        - Dracula Official (depois de instalado você pode escolher entre dracula 
+        e dracula soft, eu prefiro o dracula);
 
    Caso queira algum auxilo para entender como instalar temos esse video, ele instala somente alguns dos componentes que usaremos e outros que não usaremo, mas para ser um guia de como instalar e ter um passo a passo será útil: 
       	
    [Video Auxiliar, Autor: Diego Fernandes](https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s);
 
-      Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações visuais caso queiram, mas elas 
-	  não influenciarão no nosso progresso.
+      	Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações 
+		visuais caso queiram, mas elas não influenciarão no nosso progresso.
 
    ###### Pacotes:
 
@@ -136,8 +137,8 @@ Introdução:
 
   	Sobre nomenclaturas em comandos (fora do terminal):
 
-        Por padrão, quando usarmos comandos, usarei a nomenclatura em inglês (e ao lado e dentro do parênteses a nomenclatura 
-	em português), quando aplicável.
+        Por padrão, quando usarmos comandos, usarei a nomenclatura em inglês (e ao lado e dentro 
+		do parênteses a nomenclatura em português), quando aplicável.
         
 	Caso tenha alguma dificuldade dá um google.
 
@@ -159,7 +160,7 @@ Introdução:
 
     Antes de começar você deve criar uma pasta onde vai salvar seus projetos e repositórios, prefira sempre pastas o mais próximo possível da raíz, evite colocar dentro de muitas pastas, em algum momento você aprenderá a mexer com 'shell script' e para cada pasta que você precisar entrar precisará escrever um comando.
 
-    *Importante já se acostumar com o formato de escrita camelCase.
+    **Importante já se acostumar com o formato de escrita camelCase.**
 
       - Camel Case é a prática de escrever palavras compostas ou frases de modo que cada palavra ou abreviatura no meio da frase comece com uma letra maiúscula.
 
@@ -231,7 +232,7 @@ Introdução:
           símbolo da Windows, se você estiver usando um sem a imagem ou um mac, fica sempre na mesma 
 		  posição do teclado.
 
-        Primeiro abra seu terminal:
+       Primeiro abra seu terminal:
 
        - Windows:
 
@@ -251,16 +252,16 @@ Introdução:
 
           Para abrir o terminal utilize as teclas: 
 		  	
-		'Ctrl' + 'Alt' + 'T';
+			  'Ctrl' + 'Alt' + 'T';
 
-	  Você deve visualizar uma janela com o fundo preto e só verá um: 
+		  Você deve visualizar uma janela com o fundo preto e só verá um: 
 		  		
-		'~';
+			  '~';
 
        
-       Independente do seu OS, os comandos são os mesmos!
+      Independente do seu OS, os comandos são os mesmos!
 
-       Agora vamos entender os comandos:
+      Agora vamos entender os comandos:
 
 	- Lista arquivos e diretórios;
 
@@ -292,7 +293,7 @@ Introdução:
 
 	-  Copia o arquivo teste1 e nomeia a cópia como teste2;
 
-    	   'cp teste1 teste2'
+           'cp teste1 teste2'
 	
 	- Remove o arquivo teste1;
 
@@ -322,27 +323,27 @@ Introdução:
 
           Recapitulando, no nosso terminal você deve estar visualizando a linha:
 
-            	'PS C:\>Users\seuNome>';
+         		'PS C:\>Users\seuNome>';
 
           Vamos voltar os diretórios executando o comando 'cd ..' até a pasta raíz, ou seja, até ficar somente:
 
-            	'PS C:\>';
+           		'PS C:\>';
 
           Vamos criar e entrar no diretório chamado 'awesomeProjects' e depois criar e entrar no diretório chamado 'projeto-1-DoBasicoAoInfinito';
 
           Feito isso, você deve visualizar em seu terminal a seguinte linha:
 
-            	'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\>';
+           		'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\>';
 
           Agora, vamos criar e entrar no diretório chamado 'src' e ao final deve visualizar a seguinte linha:
 
-            	'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\src\>';
+           		'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\src\>';
 
           Dependendo do tamanho da janela essa linha deve estar encurtada, mas com o comando já citado assim, você pode e deve conferir se o caminho está correto;
 
           E para finalizar vamos criar, de uma vez só, os arquivos:
 
-            	'index.html', 'styles.css', 'script.js';
+           		'index.html', 'styles.css', 'script.js';
 
           Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
 
@@ -350,23 +351,23 @@ Introdução:
 
           Recapitulando, no nosso terminal você deve estar visualizando a linha:
 
-            	'~';
+           		'~';
 
           Vamos criar e entrar no diretório chamado 'awesomeProjects' e depois criar e entrar no diretório chamado 'projeto-1-DoBasicoAoInfinito';
 
           Feito isso, você deve visualizar em seu terminal a seguinte linha:
 
-            	'~/awesomeProjects/projeto-1-DoBasicoAoInfinito';
+           		'~/awesomeProjects/projeto-1-DoBasicoAoInfinito';
 
           Agora, vamos criar e entrar no diretório chamado 'src' e ao final deve visualizar a seguinte linha:
 
-            	'~/awesomeProjects/projeto-1-DoBasicoAoInfinito/src';
+           		'~/awesomeProjects/projeto-1-DoBasicoAoInfinito/src';
 
           Dependendo do tamanho da janela essa linha deve estar encurtada, mas com o comando já citado assim, você pode e deve conferir se o caminho está correto;
 
           E para finalizar vamos criar, de uma vez só, os arquivos:
 
-            	'index.html', 'style.css', 'script.js';
+           		'index.html', 'style.css', 'script.js';
 
           Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
 
@@ -378,7 +379,7 @@ Introdução:
 
        Abra o terminal através dos comandos 
 		
-		'Ctrl' + 'Shift' + '´' (Ctrl + Shift + Acento Agudo);
+			'Ctrl' + 'Shift' + '´' (Ctrl + Shift + Acento Agudo);
        
 	   Clique no terminal e siga os passos, caso haja alguma divergêrncia siga a partir do seu OS.
 
@@ -387,22 +388,23 @@ Introdução:
        *Importante: Digite, se e somente se, estiver dentro das 'Aspas Simples' , caso queira copie e cole.
 
             Para copiar ou colar em um terminal utilize os comandos 'Ctrl' + 'Shift' +
-            'C' - para copiar ou 'V' - para colar. Fora do terminal, incluindo esse readme, o 'Ctrl' + 'C' e o 'Ctrl' + 'V' funcionam normalmente.
+            'C' - para copiar ou 'V' - para colar. Fora do terminal, incluindo esse readme, 
+			o 'Ctrl' + 'C' e o 'Ctrl' + 'V' funcionam normalmente.
 
      - Windows ou Linux:
 
           Digite: 
 	
 	
-				'mkdir awesomeProjects' , aperte 'Enter';
+			'mkdir awesomeProjects' , aperte 'Enter';
                 
-				'mkdir projeto-1-DoBasicoAoInfinito' , aperte 'Enter';
+			'mkdir projeto-1-DoBasicoAoInfinito' , aperte 'Enter';
                 
-				'mkdir src' , aperte 'Enter';
+			'mkdir src' , aperte 'Enter';
                 
-				'cd src' , aperte 'Enter';
+			'cd src' , aperte 'Enter';
                 
-				'touch index.html style.css script.js' , aperte 'Enter';
+			'touch index.html style.css script.js' , aperte 'Enter';
 
       
       Após isso você visualizará os 3 arquivos que serão criados dentro da pasta 'src';
@@ -431,37 +433,37 @@ Introdução:
 
       Vamos agora iniciar o repositório! Clique no terminal e escreva o seguinte comando:
 
-        'git init';
+		'git init';
 
       Esse comando vai fazer a inicialização do repositório local, ou seja, vamos poder versionar localmente nosso código, mas imagine o seguinte caso:
 
        ##### Caso Exemplo:
 
-          Em uma empresa, você foi alocado na equipe de desenvolvimento e sua equipe recebeu uma 
-		  funcionalidade para melhorar o produto da empresa. Nesse momento seu gestor divide as 
-		  tarefas e cada um ficou com um pedaço da funcionalidade.
+          	Em uma empresa, você foi alocado na equipe de desenvolvimento e sua equipe recebeu uma 
+		  	funcionalidade para melhorar o produto da empresa. Nesse momento seu gestor divide as 
+		  	tarefas e cada um ficou com um pedaço da funcionalidade.
 
-          Então você e mais um colega vão desenvolver um pedaço importante, você faz um pedaço 
-		  e envia o arquivo para o seu colega e ele faz o mesmo. Quando você recebe e salva o 
-		  arquivo em sua máquina com o mesmo nome, descobre que a funcionalidade foi alterada 
-		  e não está mais funcionando nem a parte que você fez. E agora ? Como que resolve ? 
-		  Como retornar a um ponto do desenvolvimento desse código ? 
+          	Então você e mais um colega vão desenvolver um pedaço importante, você faz um pedaço 
+		  	e envia o arquivo para o seu colega e ele faz o mesmo. Quando você recebe e salva o 
+		  	arquivo em sua máquina com o mesmo nome, descobre que a funcionalidade foi alterada 
+		  	e não está mais funcionando nem a parte que você fez. E agora ? Como que resolve ? 
+		  	Como retornar a um ponto do desenvolvimento desse código ? 
 		  
-		  Vamos as opções:
+		  	Vamos as opções:
 
-            - Pedir ajuda ao Doc ou Dr. Emmett Brown para usar DeLorean para voltar no tempo e
-            impedir que o código seja modificado;
+            	- Pedir ajuda ao Doc ou Dr. Emmett Brown para usar DeLorean para voltar no tempo e
+            	impedir que o código seja modificado;
 
-            - Desistir do desenvolvimento e ir vender sua arte na praia;
+            	- Desistir do desenvolvimento e ir vender sua arte na praia;
 
-            - Lembrar que fez o versionamento local e que pode retornar a um ponto do código 
-            antes da modificação ter sido feita;
+            	- Lembrar que fez o versionamento local e que pode retornar a um ponto do código 
+            	antes da modificação ter sido feita;
 
-          Com certeza a primeira teria sido um solução interessante, mas a terceira é a viável 
-		  e uma realidade! O versionamento de códigos tem sua importância ai. Todas as vezes que 
-		  é necessário refatorar, aplicar um melhoria, ou como no caso acima, implementar uma 
-		  funcionalidade nova o versionamento de código impede que erros futuros atrapalhem 
-		  conquistas passadas, acelerando o progresso e evitando a necessidade de começar do zero.
+          	Com certeza a primeira teria sido um solução interessante, mas a terceira é a viável 
+		  	e uma realidade! O versionamento de códigos tem sua importância ai. Todas as vezes que 
+		  	é necessário refatorar, aplicar um melhoria, ou como no caso acima, implementar uma 
+		  	funcionalidade nova o versionamento de código impede que erros futuros atrapalhem 
+		  	conquistas passadas, acelerando o progresso e evitando a necessidade de começar do zero.
 
        Complementar a solução do versionamento local, temos o versionamento remoto, o qual irá facilitar a transação de versões entre os desenvolvedores, auxilar a clarificar qual etapa está o progresso de uma determinada funcionalidade, simplificar as fusões de código ou 'merges' os quais são importantes para o desenvolver partes diferentes de um programa e ao subir o código, como o exemplo a seguir:
 
@@ -487,7 +489,7 @@ Introdução:
 
       Agora vamos verificar se está tudo ok, utilize o comando:
 
-        'git status';
+        	'git status';
 
       Você receberá uma mensagem de erro, dizendo que os arquivos 'index.html', 'style.css' e 'script.js' não estão sendo monitorados e para isso devemos adiciona-los aos arquivos a serem monitorados, execute o comando para adicionar:
 
@@ -495,18 +497,17 @@ Introdução:
     
        Uma das possibilidade é adicionar um de cada vez,
 
-        'git add index.html';
-        'git add style.css';
-        'git add script.js';
+        	'git add index.html';
+        	'git add style.css';
+        	'git add script.js';
 
        Assim também é possível, adicionando cada um dos arquivos, porém de uma única vez,
 
-        'git add index.html style.css script.js';
-
+       		'git add index.html style.css script.js';
 
        E a versão mais simples, que adiciona todo e qualquer arquivo não monitorado e/ou modificado sem precisar escrever um a um:
 
-        'git add .';
+       		'git add .';
 
       O ponto nesse caso significa que serão adicionados todos os arquivos que não estão sendo monitorados.
 
@@ -517,15 +518,15 @@ Introdução:
 
 	- Esse código é o que fará o registro, mas sem a mensagem;
 
-    		'git commit'
+   			'git commit'
 			
 	- O significado de -m é 'mensage' ou seja esse deixará a mensagem, mas ainda precisamos adicionar qual mensagem você quer deixar;
 
-        	'git commit -m'
+       		'git commit -m'
 			
 	- Agora sim adicionamos uma mensagem que deve ser escrita dentro das "Aspas duplas" e sem acentuação.
 
-        	'git commit -m "Meu primeiro commit, um projeto incrivel está por vir"'
+       		'git commit -m "Meu primeiro commit, um projeto incrivel está por vir"'
 			
       Parabéns você já conseguiu fazer seu primeiro commit (é como desenvolvedores chamam o ato de registrar e deixar uma mensagem sobre o sobre o pregresso de um projeto. Esse ainda é verbificado e você ouvirá ao longo do tempo frases como "Já commitou o projeto?", "bora commitar.", "Uffa! Só falta commitar!")
 
@@ -548,36 +549,37 @@ Introdução:
       Bora jogar para o repositório remoto e ter a certeza que teremos o acesso caso qualquer problema físico ocorra;
       Lembra que pedi para criar uma conta no GitHub ? Está na hora de usá-la;
 
-        Entre no site e faça o login, terá que criar um repositório lá, procure pela opção "+ New repository".
+        	Entre no site e faça o login, terá que criar um repositório lá, procure pela opção "+ New repository".
 
         Na próxima página adicione o nome do seu repositório (exemplo:"projeto-1-DoBasicoAoInfinito" utilize o mesmo nome que usou na pasta de preferência). As configurações deixe padrão.
 
-        Feito isso encontre a opção "Create repository" e clique.
+        	Feito isso encontre a opção "Create repository" e clique.
 
         A próxima página que abrir conterá as instruções básicas de utilização, neste momento não faça nada na página apenas anote a linha que contém conteúdo semelhante a descrita logo abaixo e deixe a página aberta no navegador.
 
-          'git remote add origin https://github.com/seu-usuario/projeto-1-DoBasicoAoInfinito.git'
+          	'git remote add origin https://github.com/seu-usuario/projeto-1-DoBasicoAoInfinito.git'
 
-          Vamos precisar dela depois.
+          	Vamos precisar dela depois.
 
         A partir daqui vamos voltar para o terminal do VSCODE;
         Digite os seguintes comandos:
 
-          'git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"'
-          'git config --global user.name "nome-do-seu-usuario-de-login-do-github"'
-          'git config --global core.editor "code --wait"'
+          	'git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"'
+          	'git config --global user.name "nome-do-seu-usuario-de-login-do-github"'
+          	'git config --global core.editor "code --wait"'
 
         Para conferirmos se está tudo ok, você deve digitar o seguinte comando:
 
-          'git config --global -e';
+          	'git config --global -e';
 
         E deve verificar o seguinte código:
 
-          [user]
-          	name = 'Nome do seu usuário no GitHub'
-	          email = 'Seu e-mail cadastrado no GitHub'
-          [core]
-	          editor = code --wait
+			[user]
+				name = 'Nome do seu usuário no GitHub'
+				email = 'Seu e-mail cadastrado no GitHub'
+			
+			[core]
+				editor = code --wait
 
         Agora verifique se está no caminho do seu projeto, caso não tenha feito nada diferente você estará, vamos usar aquele comando que já haviamos salvo do GitHub:
 

@@ -69,25 +69,25 @@ Introdução:
       open-source, privados e até comumente em empresas. Por isso crie uma conta, pois durante a instalação do 
       Git precisará da senha e do usuário para setar as configurações básicas de seu repositório remoto.
 
-   - Site do Github: https://github.com/ ;
+   - [Site do Github](https://github.com/);
 
    	Se tiver curiosidade sobre projetos que já fiz, dê uma olhada no meu Github, talvez sirva de inspiração:
 
-   - Repositório: https://github.com/JoaoPBarros?tab=repositories ;
+   - [Repositório](https://github.com/JoaoPBarros?tab=repositories);
 
    ###### Visual Studio Code ou VSCODE:
 
       O VSCODE é provavelmente o editor de código mais usado atualmente, existem outros, mas usaremos esse aqui 
       e você pode baixa-lo aqui:
 
-   - VSCODE: https://code.visualstudio.com/ ;
+   - [VSCODE](https://code.visualstudio.com/);
    
     É tão prático que ele já reconhece seu sistema operacional e te passa a versão a ser baixada. 
 	No windows você aperta e foi, caso esteja usando o Linux e tenha alguma dificuldade:
 
-   - https://code.visualstudio.com/docs/setup/linux (em inglês) ;
+   - [Em inglês, site oficial VSCODE](https://code.visualstudio.com/docs/setup/linux);
 
-   - https://www.vivaolinux.com.br/dica/Como-instalar-o-Visual-Studio-Code-no-Debian-10-Buster (em português) ;
+   - [Em português, blog Viva O Linux](https://www.vivaolinux.com.br/dica/Como-instalar-o-Visual-Studio-Code-no-Debian-10-Buster);
 
     Aqui também é importante lembrar de algumas extensões que vamos precisar e usar, no menu ao seu lado esquerdo 
     possui um ícone com quatro quadrados sendo que 3 estão juntos e 1 separado, clique nele;
@@ -118,7 +118,7 @@ Introdução:
 
    Caso queira algum auxilo para entender como instalar temos esse video, ele instala somente alguns dos componentes que usaremos e outros que não usaremo, mas para ser um guia de como instalar e ter um passo a passo será útil: 
       	
-   https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s
+   [Video Auxiliar, Autor: Diego Fernandes](https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s);
 
       Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações visuais caso queiram, mas elas 
 	  não influenciarão no nosso progresso.
@@ -127,9 +127,10 @@ Introdução:
 
    Para prepararmos um ambiente para o desenvolvimento, devemos instalar alguns pacotes:
 
-   - Git: https://blog.geekhunter.com.br/visual-studio-code-como-editor-do-git/ (em português) ;
+   - Git: [Blog GeekHunter, em português](https://blog.geekhunter.com.br/visual-studio-code-como-editor-do-git/);
 
-   - Nodejs: https://nodejs.org/en/download/package-manager/ (Escolha a versão LTS, essa não é a versão mais nova, mas é a mais estável, o que facilitará bastante) (em inglês) ;
+   - Nodejs: [Site Oficial Nodejs, em inglês](https://nodejs.org/en/download/package-manager/) 
+   (Escolha a versão LTS, essa não é a versão mais nova, mas é a mais estável, o que facilitará bastante);
 
    - NPM: Quando instalamos o Nodejs, também instalamos o NPM - Node Package Manager.
 
@@ -216,10 +217,9 @@ Introdução:
 		  citei o Mint, mas recomendo também o popOS, esses são ainda mais simples. Para aqueles que quiserem 
 		  um desafio, aconselho o famoso ARCHlinux.
 
-	  E para os mais empenhados, O Guia DEFINITIVO de UBUNTU para Devs Iniciantes, recomendo esse vídeo 
-	  do Fábio Akita: 
+	  E para os mais empenhados, recomendo esse vídeo do Fábio Akita: 
 
-	  https://www.youtube.com/watch?v=epiyExCyb2s;
+	  [O Guia DEFINITIVO de UBUNTU para Devs Iniciantes](https://www.youtube.com/watch?v=epiyExCyb2s);
 
 	  (esse vídeo tem um nome bem apelativo, mas é bom);
 
@@ -251,12 +251,13 @@ Introdução:
 
           Para abrir o terminal utilize as teclas: 
 		  	
-				'Ctrl' + 'Alt' + 'T';
+		'Ctrl' + 'Alt' + 'T';
 
-          Você deve visualizar uma janela com o fundo preto e só verá um 
+	  Você deve visualizar uma janela com o fundo preto e só verá um: 
 		  		
-				'~';
+		'~';
 
+       
        Independente do seu OS, os comandos são os mesmos!
 
        Agora vamos entender os comandos:
@@ -313,9 +314,9 @@ Introdução:
 
           'touch teste1.txt teste2.txt teste3.txt' 
       
-	#### E o fim:
+    #### E o fim:
 
-        Terminal aberto, bora para a solução!
+       Terminal aberto, bora para a solução!
 
        - Windows:
 
@@ -372,7 +373,7 @@ Introdução:
       ### 'Easy Way'
 
         Se você optou por esse caminho, fique tranquilo, não afetará em nenhum pouco o processo 
-		de aprendizagem sobre a criação e sobre conhecimentos mais específicos e desejados em programação.
+        de aprendizagem sobre a criação e sobre conhecimentos mais específicos e desejados em programação.
         No entanto, se você ficou com uma pulguinha atrás da orelha, volte e vá pelo 'Hard Way' , aprofunde o seu conhecimento.
 
        Abra o terminal através dos comandos 
@@ -388,10 +389,11 @@ Introdução:
             Para copiar ou colar em um terminal utilize os comandos 'Ctrl' + 'Shift' +
             'C' - para copiar ou 'V' - para colar. Fora do terminal, incluindo esse readme, o 'Ctrl' + 'C' e o 'Ctrl' + 'V' funcionam normalmente.
 
-       - Windows ou Linux:
+     - Windows ou Linux:
 
-            Digite: 
-					
+          Digite: 
+	
+	
 				'mkdir awesomeProjects' , aperte 'Enter';
                 
 				'mkdir projeto-1-DoBasicoAoInfinito' , aperte 'Enter';
@@ -402,15 +404,16 @@ Introdução:
                 
 				'touch index.html style.css script.js' , aperte 'Enter';
 
+      
       Após isso você visualizará os 3 arquivos que serão criados dentro da pasta 'src';
 
       Caso queira se aprofundar em comandos via terminal, confira esses sites:
 
-       - Windows: https://devcontent.com.br/artigos/windows/principais-comandos-prompt (em português);
+       - Windows: [Site DevContent, em português](https://devcontent.com.br/artigos/windows/principais-comandos-prompt);
 
-       - Linux: https://www.alura.com.br/artigos/comecando-com-o-terminal-manipulando-arquivos-e-diretorios (em português);
+       - Linux: [Site Alura, em português](https://www.alura.com.br/artigos/comecando-com-o-terminal-manipulando-arquivos-e-diretorios);
 
-	## Partiu VSCODE:
+    ## Partiu VSCODE:
 
 	Feche o terminal e abra o VSCODE,
         Clique em File (Arquivo);
@@ -598,11 +601,11 @@ Introdução:
 
         	'-u' 
 			
-	- É por convenção escolhido, o “origin” do repositório remoto é um tipicamente guardados em uma máquina separada ou em um servidor centralizado e essa palavra aponta a origem do repositório naquele outro lugar. (caso queira entender melhor: https://githowto.com/pt-BR/what_is_origin em português);
+	- É por convenção escolhido, o “origin” do repositório remoto é um tipicamente guardados em uma máquina separada ou em um servidor centralizado e essa palavra aponta a origem do repositório naquele outro lugar. (caso queira entender melhor: [Site GitHowTo, em português](https://githowto.com/pt-BR/what_is_origin));
 
         	'origin' 
 			
-	- É o nome dado a branch a qual estamos, geralmente a branch principal é chamada de master ou de main, por sinal usaremos a master, ao longo da sua vida como desenvolvedor verá que existem projetos com dezenas, centenas de branchs. (caso queira saber mais sobre branchs dê uma olhada no seguinte site: https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches em inglês);
+	- É o nome dado a branch a qual estamos, geralmente a branch principal é chamada de master ou de main, por sinal usaremos a master, ao longo da sua vida como desenvolvedor verá que existem projetos com dezenas, centenas de branchs. (caso queira saber mais sobre branchs dê uma olhada no seguinte site: [Site Git SCM, em inglês](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches));
 
         	'master' 
 

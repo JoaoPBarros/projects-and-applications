@@ -20,15 +20,15 @@ Introdução:
       poderão ter acesso e aprendizado de qualidade com o máximo aproveitamento.
  
 ## Sumário
-- [Sobre o Computador](#sobre-o-computador:)
-- [Avisos Importantes](#antes-de-começarmos-atente-se-a-alguns-sinais:)
-- [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório:)
-	- [Hard Way](#'hard-way')
-		[O Início](#o-início:)
-		[O Meio](#o-meio:)
-		[E o Fim](#e-o-fim:)
-	- [Easy Way](#'easy-way')
-- [Iniciando o repositório](#partiu-vscode:)
+- [Sobre o Computador](#sobre-o-computador)
+- [Avisos Importantes](#antes-de-começarmos-atente-se-a-alguns-sinais)
+- [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
+  - [Hard Way](##'hard-way')
+		- [O Início](###o-início)
+		- [O Meio](###o-meio)
+		- [E o Fim](###e-o-fim)
+  - [Easy Way](##'easy-way')
+- [Iniciando o repositório](#partiu-vscode)
 - [Aprendizado First Step](#você-pode-estar-pensando:-o-que-eu-fiz-?)
 
   ## Sobre o computador:
@@ -133,7 +133,7 @@ Introdução:
 	Caso tenha alguma dificuldade dá um google.
 
 
-## Antes de começarmos atente-se a alguns sinais:
+## Antes de começarmos atente-se a alguns sinais
 
   - 'Aspas simples' e "Aspas duplas": toda vez que usarmos, no meio de uma explicação, uma certa nomenclatura que aconselho, para chamar sua atenção com palavras chave ou para casos de exemplificação, como o que será descrito mais abaixo quando criarmos um repositório;
 
@@ -142,7 +142,7 @@ Introdução:
   Além dessas, preste bastante atenção a indentação.
 
 
-## Criando e iniciando um repositório:
+## Criando e iniciando um repositório
 
   - Criando um repositório
 
@@ -176,7 +176,7 @@ Introdução:
 
     ### 'Hard Way'
 
-      #### O Início:
+      #### O Início
 
 		  Se você escolheu esse caminho, meus parabéns!!
 		  Ser uma pessoa que se aprofunda nos assuntos lhe trará muitos bons frutos!!
@@ -359,7 +359,7 @@ Introdução:
 
           Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
 
-      ## 'Easy Way'
+      ### 'Easy Way'
 
         Se você optou por esse caminho, fique tranquilo, não afetará em nenhum pouco o processo 
 		de aprendizagem sobre a criação e sobre conhecimentos mais específicos e desejados em programação.
@@ -596,7 +596,7 @@ Introdução:
 
         	'master' 
 0
-# Você pode estar pensando: o que eu fiz ?
+## Você pode estar pensando: o que eu fiz ?
 
   	Bem basicamente você aprendeu comandos para verificar, criar, deletar, 
 	pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar 
@@ -615,4 +615,4 @@ Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível hab
 	dimensione isso para sua vida e vai entender a força que o Git tem no mundo do 
 	desenvolvimento.
 
-  ## _Meus Parabéns!! Você chegou até aqui!!_
+  ### _Meus Parabéns!! Você chegou até aqui!!_

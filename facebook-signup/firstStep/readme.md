@@ -21,16 +21,24 @@ Introdução:
  
 ## Sumário
 - [Sobre o Computador](#sobre-o-computador)
-- [Avisos Importantes](#antes-de-começarmos-atente-se-a-alguns-sinais)
+ 
+- [Avisos Importantes](#avisos-importantes)
+
 - [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
+  
   - [Hard Way](##'hard-way')
 		- [O Início](###o-início)
 		- [O Meio](###o-meio)
 		- [E o Fim](###e-o-fim)
+  
   - [Easy Way](##'easy-way')
-- [Iniciando o repositório](#partiu-vscode)
-- [Aprendizado First Step](#você-pode-estar-pensando:-o-que-eu-fiz-?)
 
+- [Iniciando o repositório](#partiu-vscode)
+
+- [Aprendizado First Step](#você-deve-estar-se-perguntando-o-que-eu-fiz)
+
+  
+  
   ## Sobre o computador:
 
   	As máquinas atuais básicas são bem suficientes na capacidade (minha sugestão é pelo menos i3 com 4gb ram),
@@ -133,7 +141,9 @@ Introdução:
 	Caso tenha alguma dificuldade dá um google.
 
 
-## Antes de começarmos atente-se a alguns sinais
+## Avisos Importantes 
+	
+  Antes de começarmos atente-se a alguns sinais:
 
   - 'Aspas simples' e "Aspas duplas": toda vez que usarmos, no meio de uma explicação, uma certa nomenclatura que aconselho, para chamar sua atenção com palavras chave ou para casos de exemplificação, como o que será descrito mais abaixo quando criarmos um repositório;
 
@@ -595,24 +605,29 @@ Introdução:
 	- É o nome dado a branch a qual estamos, geralmente a branch principal é chamada de master ou de main, por sinal usaremos a master, ao longo da sua vida como desenvolvedor verá que existem projetos com dezenas, centenas de branchs. (caso queira saber mais sobre branchs dê uma olhada no seguinte site: https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches em inglês);
 
         	'master' 
-0
-## Você pode estar pensando: o que eu fiz ?
 
-  	Bem basicamente você aprendeu comandos para verificar, criar, deletar, 
-	pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar 
-	e por sinal até arquivos escondidos agora você consegue visualizar;
 
-Além disso, 
+
+## Você deve estar se perguntando, o que eu fiz?
+
+   Hmmm...
+
+  		Bem basicamente você aprendeu comandos para verificar, criar, deletar, 
+		pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar 
+		e por sinal até arquivos escondidos agora você consegue visualizar;
+
+   Além disso, 
 	
-	Configuramos um ambiente de desenvolvimento independente do seu sistema 
-	operacional que não deixará nenhum set da nasa mais qualificado em questão 
-	de ambiente para desenvolvermos;
+		Configuramos um ambiente de desenvolvimento independente do seu sistema 
+		operacional que não deixará nenhum set da nasa mais qualificado em questão 
+		de ambiente para desenvolvermos;
 
-Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível habilidade 
+   Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível habilidade 
 
-	Lidamos com o Git, TODO DESENVOLVEDOR PRECISA SABER E SABER BEM GIT. 
-	Programas quebram, códigos falham, pessoas erram, o Git é nossa máquina do tempo, 
-	dimensione isso para sua vida e vai entender a força que o Git tem no mundo do 
-	desenvolvimento.
+		Lidamos com o Git, TODO DESENVOLVEDOR PRECISA SABER E SABER BEM GIT. 
+		Programas quebram, códigos falham, pessoas erram, o Git é nossa máquina do tempo, 
+		dimensione isso para sua vida e vai entender a força que o Git tem no mundo do 
+		desenvolvimento.
 
-  ### _Meus Parabéns!! Você chegou até aqui!!_
+
+### _Meus Parabéns!! Você chegou até aqui!!_

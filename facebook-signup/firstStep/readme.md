@@ -14,21 +14,31 @@ Introdução:
     Primeiro, vamos lembrar do porque fazer lendo e seguindo os passos ao invés de simplesmente fazer um vídeo guiando:
 
       - No vídeo você poderia simplesmente se desligar e copiar as linhas de código que eu digitaria;
-
       - Durante a leitura, você precisará ativamente estar compenetrado e buscando pelo o conhecimento;
 
       - E com um documento de texto, aqueles que não possuirem um computador tão potente ou uma internet tão boa, 
       poderão ter acesso e aprendizado de qualidade com o máximo aproveitamento.
+ 
+## Sumário
+- [Sobre o Computador](#sobre-o-computador:)
+- [Avisos Importantes](#antes-de-começarmos-atente-se-a-alguns-sinais:)
+- [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório:)
+	- [Hard Way](#'hard-way')
+		[O Início](#o-início:)
+		[O Meio](#o-meio:)
+		[E o Fim](#e-o-fim:)
+	- [Easy Way](#'easy-way')
+- [Iniciando o repositório](#partiu-vscode:)
+- [Aprendizado First Step](#você-pode-estar-pensando:-o-que-eu-fiz-?)
 
+  ## Sobre o computador:
 
-  Sobre o computador:
+  	As máquinas atuais básicas são bem suficientes na capacidade (minha sugestão é pelo menos i3 com 4gb ram),
+  	mas algumas pessoas com computadores básicos com +15 anos, podem ter algum problema no geral, para esses 
+  	busquem utilizar o básico, sem muitas abas abertas no seu browser. Se tiver a possibilidade e tempo instale 
+  	uma distro Linux, existem várias e algumas até são quase tão simples quanto o windows.
 
-    As máquinas atuais básicas são bem suficientes na capacidade (minha sugestão é pelo menos i3 com 4gb ram),
-    mas algumas pessoas com computadores básicos com +15 anos, podem ter algum problema no geral, para esses 
-    busquem utilizar o básico, sem muitas abas abertas no seu browser. Se tiver a possibilidade e tempo instale 
-    uma distro Linux, existem várias e algumas até são quase tão simples quanto o windows.
-
-    Sistema operacional:
+    ###### Sistema operacional:
 
       Atualmente uso o Linux Mint, extremamente mais leve que o Windows, possui uma interface familiar 
       para usuários de Windows, exige muito pouco do usuário final e comandos em CLI são praticamente 
@@ -39,12 +49,12 @@ Introdução:
       Caso você esteja usando Windows fique tranquilo, esse tutorial é independente de sistema operacional, 
       somente aconselho que tome cuidado com o processamento e capacidade de programas abertos.
 
-  Programas e pacotes necessários e configurações básicos:
+  ##### Programas e pacotes necessários e configurações básicos:
 
     Alguns dos sites contam um pouca da história e podem servir como fonte de consulta caso tenha algum 
     erro não previsto nesse documento.
 
-   Github:
+   ###### Github:
 
       O Github, não confunda com o Git, é uma rede social na qual podemos colocar nossos repositórios remotos, 
       dessa forma protegemos nosso progresso e podemos trabalhar com diversos outros programadores em projetos 
@@ -57,7 +67,7 @@ Introdução:
 
    - Repositório: https://github.com/JoaoPBarros?tab=repositories ;
 
-   Visual Studio Code ou VSCODE:
+   ###### Visual Studio Code ou VSCODE:
 
       O VSCODE é provavelmente o editor de código mais usado atualmente, existem outros, mas usaremos esse aqui 
       e você pode baixa-lo aqui:
@@ -102,10 +112,10 @@ Introdução:
       	
    https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s
 
-        Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações visuais caso queiram, mas elas 
-	não influenciarão no nosso progresso.
+      Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações visuais caso queiram, mas elas 
+	  não influenciarão no nosso progresso.
 
-   Pacotes:
+   ###### Pacotes:
 
    Para prepararmos um ambiente para o desenvolvimento, devemos instalar alguns pacotes:
 
@@ -123,7 +133,7 @@ Introdução:
 	Caso tenha alguma dificuldade dá um google.
 
 
-Antes de começarmos atente-se alguns sinais:
+## Antes de começarmos atente-se a alguns sinais:
 
   - 'Aspas simples' e "Aspas duplas": toda vez que usarmos, no meio de uma explicação, uma certa nomenclatura que aconselho, para chamar sua atenção com palavras chave ou para casos de exemplificação, como o que será descrito mais abaixo quando criarmos um repositório;
 
@@ -132,8 +142,7 @@ Antes de começarmos atente-se alguns sinais:
   Além dessas, preste bastante atenção a indentação.
 
 
-
-Criando e iniciando um repositório:
+## Criando e iniciando um repositório:
 
   - Criando um repositório
 
@@ -165,9 +174,9 @@ Criando e iniciando um repositório:
 
       Mas como assim? Você me pergunta.. Existe um caminho que eu vou te ensinar a lidar com o básico dos comando de terminal, e há aquele que é só um copia e cola. Não há demérito nessa parte o objetivo é outro, mas se quer um aprendizado mais aprofundado, aconselho ir pelo 'Hard Way'. Caso prefira o 'Easy Way' siga direto.
 
-      'Hard Way'
+    ### 'Hard Way'
 
-      O Início:
+      #### O Início:
 
 		  Se você escolheu esse caminho, meus parabéns!!
 		  Ser uma pessoa que se aprofunda nos assuntos lhe trará muitos bons frutos!!
@@ -204,9 +213,9 @@ Criando e iniciando um repositório:
 
 	  (esse vídeo tem um nome bem apelativo, mas é bom);
 
-      O meio:
+    #### O meio:
 
-        Nota do Jota:
+       **Nota do Jota:**
 
           - tecla 'cmd' é aquela que possui a função de subir seu menu, em teclados normais é a tecla com o 
           símbolo da Windows, se você estiver usando um sem a imagem ou um mac, fica sempre na mesma 
@@ -294,7 +303,7 @@ Criando e iniciando um repositório:
 
           'touch teste1.txt teste2.txt teste3.txt' 
       
-	E o fim:
+	#### E o fim:
 
         Terminal aberto, bora para a solução!
 
@@ -350,7 +359,7 @@ Criando e iniciando um repositório:
 
           Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
 
-      'Easy Way'
+      ## 'Easy Way'
 
         Se você optou por esse caminho, fique tranquilo, não afetará em nenhum pouco o processo 
 		de aprendizagem sobre a criação e sobre conhecimentos mais específicos e desejados em programação.
@@ -391,7 +400,8 @@ Criando e iniciando um repositório:
 
        - Linux: https://www.alura.com.br/artigos/comecando-com-o-terminal-manipulando-arquivos-e-diretorios (em português);
 
-      
+	## Partiu VSCODE:
+
 	Feche o terminal e abra o VSCODE,
         Clique em File (Arquivo);
           Open Folder (Abrir Pasta);
@@ -412,7 +422,7 @@ Criando e iniciando um repositório:
 
       Esse comando vai fazer a inicialização do repositório local, ou seja, vamos poder versionar localmente nosso código, mas imagine o seguinte caso:
 
-       Caso Exemplo:
+       ##### Caso Exemplo:
 
           Em uma empresa, você foi alocado na equipe de desenvolvimento e sua equipe recebeu uma 
 		  funcionalidade para melhorar o produto da empresa. Nesse momento seu gestor divide as 
@@ -506,7 +516,7 @@ Criando e iniciando um repositório:
 			
       Parabéns você já conseguiu fazer seu primeiro commit (é como desenvolvedores chamam o ato de registrar e deixar uma mensagem sobre o sobre o pregresso de um projeto. Esse ainda é verbificado e você ouvirá ao longo do tempo frases como "Já commitou o projeto?", "bora commitar.", "Uffa! Só falta commitar!")
 
-      *Importante: Devo lembrar-te que o ato de adicionar existe em duas etapas:
+      **Importante: Devo lembrar-te que o ato de adicionar existe em duas etapas:**
 
         	Quando os arquivos não estão sendo monitorados devem ser adicionados usando o comando 'git add';
 
@@ -585,8 +595,8 @@ Criando e iniciando um repositório:
 	- É o nome dado a branch a qual estamos, geralmente a branch principal é chamada de master ou de main, por sinal usaremos a master, ao longo da sua vida como desenvolvedor verá que existem projetos com dezenas, centenas de branchs. (caso queira saber mais sobre branchs dê uma olhada no seguinte site: https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches em inglês);
 
         	'master' 
-
-Você pode estar pensando: o que eu fiz ?
+0
+# Você pode estar pensando: o que eu fiz ?
 
   	Bem basicamente você aprendeu comandos para verificar, criar, deletar, 
 	pastas e arquivos qualquer origem via CLI, sem necessidade de visualizar 
@@ -605,4 +615,4 @@ Ahhh não podemos esquecer é claro, talvez seja a incrível e impreterível hab
 	dimensione isso para sua vida e vai entender a força que o Git tem no mundo do 
 	desenvolvimento.
 
-  Meus Parabéns!! Você chegou até aqui!!
+  ## _Meus Parabéns!! Você chegou até aqui!!_

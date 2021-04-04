@@ -22,9 +22,12 @@ Introdução:
 
   Recaptulando:
 
-    FirstStep:
+   FirstStep:
 
-      No nosso primeiro passo nós aprendemos os comandos para lidar com diretórios e arquivos via CLI, entendemos os porquês do versionamento local e remoto, além disso lidamos com os comandos um a um para criar e inicializar um repositório local e vinculamos à um repositório remoto no GitHub setando as configurações globais básicas durante o processo.
+      No nosso primeiro passo nós aprendemos os comandos para lidar com diretórios e arquivos via CLI, 
+	  entendemos os porquês do versionamento local e remoto, além disso lidamos com os comandos um a um 
+	  para criar e inicializar um repositório local e vinculamos à um repositório remoto no GitHub setando 
+	  as configurações globais básicas durante o processo.
 
   Agora, temos que começar pelos nossos amigos **'HTML'** e **'CSS'**. Entendemos que nenhum do dois são linguagens de programação, o **'HTML'** - HyperText Markup Language (Linguagem de Marcação de Hipertexto), é uma linguagem de marcação que usamos para construção de páginas na web. O **'CSS'**, temido e querido, é uma mão na roda para os desenvolvedores criarem interfaces e transformarem sites em sites responsivos. O Cascading Style Sheets - **'CSS'**, é lido na forma de cascata, ou seja, existe uma prioridade dos acontecimentos o que faz com que os comandos possam ser sobrescritos.
 
@@ -34,7 +37,9 @@ Introdução:
       - Comando 2 (CMD2);
       - Comando 3 (CMD3);
 
-    Se esses comandos são para modificar elementos ou atributos diferentes, não há muito problema, porém sendo eles para um mesmo elemento ou atributo. Vamos adicionar um elemento que será modificado pelos nossos comandos e seguir a lógica:
+    Se esses comandos são para modificar elementos ou atributos diferentes, não há muito problema, 
+	porém sendo eles para um mesmo elemento ou atributo. Vamos adicionar um elemento que será modificado 
+	pelos nossos comandos e seguir a lógica:
 
       - 'Elemento 1';
 
@@ -46,7 +51,8 @@ Introdução:
 
       - O Comando 2 é executado, e altera o 'Elemento 1':CMD1, retorna 'Elemento 1':CMD2;
 
-    Note que neste momento o Comando 2 sobrescreve o Comando 1, mas além da possibilidade de sobrescrever, o documento ainda pode 'quebrar' renderizando de uma forma não esperada pela sobrecrição;
+    Note que neste momento o Comando 2 sobrescreve o Comando 1, mas além da possibilidade de sobrescrever, 
+	o documento ainda pode 'quebrar' renderizando de uma forma não esperada pela sobrecrição;
 
       - O Comando 3 é executado, e altera o 'Elemento 1':CMD2, retorna 'Elemento 1':CMD3;
 
@@ -69,7 +75,10 @@ Introdução:
                               └─┬──┘
          menor especificidade ──┘
 
-      Além desse cálculo, temos a tag de prioridade !important, a qual vai desempatar e define como principal comando independente de comandos anteriores ou seguintes. Vale ainda ressaltar caso seja aplicado em um atributo que agregue sub-atributos, os sub-atributos também serão sobrescritos, exemplo:
+      Além desse cálculo, temos a tag de prioridade !important, a qual vai desempatar e 
+	  define como principal comando independente de comandos anteriores ou seguintes. 
+	  Vale ainda ressaltar caso seja aplicado em um atributo que agregue sub-atributos, 
+	  os sub-atributos também serão sobrescritos, exemplo:
 
         - margin !important;
                ||
@@ -86,51 +95,57 @@ Introdução:
 
     Começamos adicionando por padrão a tag '<!DOCTYPE html>' ela por si só já nos retorna uma base assim:
 
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-      </head>
-      <body>
+		  <!DOCTYPE html>
+		  <html lang="en">
+		  <head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Document</title>
+		  </head>
+		  <body>
 
-      </body>
-      </html>
+		  </body>
+		  </html>
 
     Começa a ficar mais claro a estrutura com as tags 'head' e 'body', mas dentro do 'body' adicionamos ainda as tags que a subdividem: 'header', 'main' e 'footer';
 
   - Tags Semânticas:
 
-    '<header>':
+		'<header>':
 
-      - Utilizado para representar o cabeçalho do documento ou da seção declarada;
+		  - Utilizado para representar o cabeçalho do documento ou da seção declarada;
 
-    '<main>':
+		'<main>':
 
-      - Define a posição do conteúdo principal;
+		  - Define a posição do conteúdo principal;
 
-    '<footer>':
+		'<footer>':
 
-      - Representa o final do documento ou da seção, o rodapé do de uma página web;
+		  - Representa o final do documento ou da seção, o rodapé do de uma página web;
 
-    '<nav>':
+		'<nav>':
 
-      - Outra tag bastante auto explicativa, a '<nav>' serve para declararmos uma barra de navegação, geralmente contendo botões e/ou links, usados em conjunto de tags para listas não ordenadas e links;
+		  - Outra tag bastante auto explicativa, a '<nav>' serve para declararmos uma 
+		  barra de navegação, geralmente contendo botões e/ou links, usados em conjunto 
+		  de tags para listas não ordenadas e links;
 
-    '<article>':
+		'<article>':
 
-      - Parecido com o '<section>', mas esse tem sentido completo (inicio, meio e fim), muito comum para notícias em sites de notícias e blogs;
+		  - Parecido com o '<section>', mas esse tem sentido completo (inicio, meio e fim),
+		  muito comum para notícias em sites de notícias e blogs;
 
-    '<section>' ou '<sect>':
+		'<section>' ou '<sect>':
 
-      - Serve para representar uma seção, geralmente tópicos e seções são descritos com essa tag com títulos;
+		  - Serve para representar uma seção, geralmente tópicos e seções são descritos com 
+		  essa tag com títulos;
 
-    '<aside>':
+		'<aside>':
 
-      - Conhecida por ser uma tag de apoio ou complemento, muito usado para complementar seções ou lateralizar elementos e informações;
+		  - Conhecida por ser uma tag de apoio ou complemento, muito usado para complementar 
+		  seções ou lateralizar elementos e informações;
 
-    '<figure>' e '<figcaption>':
+		'<figure>' e '<figcaption>':
 
-      - A tag '<figure>' é utilizada para especificar quando uma figura foi incluída e a '<figcaption>' serve para incluírmos uma descrição à figura;
+		  - A tag '<figure>' é utilizada para especificar quando uma figura foi incluída e 
+		  a '<figcaption>' serve para incluírmos uma descrição à figura;

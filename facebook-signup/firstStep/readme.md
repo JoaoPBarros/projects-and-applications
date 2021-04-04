@@ -634,4 +634,4 @@ Introdução:
 
 ### _Meus Parabéns!! Você chegou até aqui!!_
 
-![Sincronizado](facebook-signup/public/gifs/rickDançandoComEquipeSincronizado.gif "Mission Accomplished")
+![Sincronizado](https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/public/gifs/rickDan%C3%A7andoComEquipeSincronizado.gif "Mission Accomplished")

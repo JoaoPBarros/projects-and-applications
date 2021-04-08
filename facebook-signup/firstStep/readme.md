@@ -121,8 +121,8 @@ Introdução:
 
    [Video Auxiliar, Autor: Diego Fernandes](https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s);
 
-      	Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações
-		visuais caso queiram, mas elas não influenciarão no nosso progresso.
+      Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações 
+	  visuais caso queiram, mas elas não influenciarão no nosso progresso.
 
    ###### Pacotes:
 
@@ -259,8 +259,10 @@ Introdução:
 			  '~';
 
 
-      Independente do seu OS, os comandos são os mesmos!
-
+      _Lembre que as 'Aspas Simples' não fazem parte dos comandos, são somente para ênfase._
+	  
+	  Independente do seu OS, os comandos são os mesmos!
+	  
       Agora vamos entender os comandos:
 
 	- Lista arquivos e diretórios;
@@ -325,17 +327,17 @@ Introdução:
 
          	 'PS C:\>Users\seuNome>';
 
-          Vamos voltar os diretórios executando o comando 'cd ..' até a pasta raíz, ou seja, até ficar somente:
+          Vamos voltar os diretórios executando o comando `cd ..` até a pasta raíz, ou seja, até ficar somente:
 
            	 'PS C:\>';
 
-          Vamos criar e entrar no diretório chamado 'awesomeProjects' e depois criar e entrar no diretório chamado 'projeto-1-DoBasicoAoInfinito';
+          Vamos criar e entrar no diretório chamado `awesomeProjects` e depois criar e entrar no diretório chamado `projeto-1-DoBasicoAoInfinito`;
 
           Feito isso, você deve visualizar em seu terminal a seguinte linha:
 
            	 'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\>';
 
-          Agora, vamos criar e entrar no diretório chamado 'src' e ao final deve visualizar a seguinte linha:
+          Agora, vamos criar e entrar no diretório chamado `src` e ao final deve visualizar a seguinte linha:
 
            	 'PS C:\>awesomeProjects\projeto-1-DoBasicoAoInfinito\src\>';
 
@@ -345,7 +347,7 @@ Introdução:
 
            	 'index.html', 'styles.css', 'script.js';
 
-          Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
+          Quando usar o comando `ls`, você deve visualizar os 3 arquivos;
 
        - Linux:
 
@@ -353,13 +355,13 @@ Introdução:
 
            	 '~';
 
-          Vamos criar e entrar no diretório chamado 'awesomeProjects' e depois criar e entrar no diretório chamado 'projeto-1-DoBasicoAoInfinito';
+          Vamos criar e entrar no diretório chamado `awesomeProjects` e depois criar e entrar no diretório chamado `projeto-1-DoBasicoAoInfinito`;
 
           Feito isso, você deve visualizar em seu terminal a seguinte linha:
 
            	 '~/awesomeProjects/projeto-1-DoBasicoAoInfinito';
 
-          Agora, vamos criar e entrar no diretório chamado 'src' e ao final deve visualizar a seguinte linha:
+          Agora, vamos criar e entrar no diretório chamado `src` e ao final deve visualizar a seguinte linha:
 
            	 '~/awesomeProjects/projeto-1-DoBasicoAoInfinito/src';
 
@@ -369,7 +371,7 @@ Introdução:
 
            	 'index.html', 'style.css', 'script.js';
 
-          Quando usar o comando 'ls', você deve visualizar os 3 arquivos;
+          Quando usar o comando `ls`, você deve visualizar os 3 arquivos;
 
       ### 'Easy Way'
 
@@ -385,7 +387,7 @@ Introdução:
 
        Dentro da pasta já, você deverá visualizar ao seu lado esquerdo uma aba de menu com ícones, uma outra com o nome da pasta e vazia.
 
-       *Importante: Digite, se e somente se, estiver dentro das 'Aspas Simples' , caso queira copie e cole.
+       *Importante: Digite, se e somente se, estiver dentro das 'Aspas Simples' , caso queira copie e cole **SEM AS 'ASPAS SIMPLES'**.
 
             Para copiar ou colar em um terminal utilize os comandos 'Ctrl' + 'Shift' +
             'C' - para copiar ou 'V' - para colar. Fora do terminal, incluindo esse readme,
@@ -407,7 +409,7 @@ Introdução:
 			'touch index.html style.css script.js' , aperte 'Enter';
 
 
-      Após isso você visualizará os 3 arquivos que serão criados dentro da pasta 'src';
+      Após isso você visualizará os 3 arquivos que serão criados dentro da pasta `src`;
 
       Caso queira se aprofundar em comandos via terminal, confira esses sites:
 
@@ -483,31 +485,33 @@ Introdução:
           Aos poucos vemos o sentido de certas práticas, e só podemos tratar com seriedade quando
 		  entendemos o verdadeiro sentido de cada uma dessas práticas.
 
-      Voltando as linhas de código, após ter aplicado o comando 'git init' , por curiosidade digite o comando que verifica TODOS os arquivos presentes na pasta (se você escolheu o 'Easy Way', a lista de comandos está na linha 166 deste documento);
+      Voltando as linhas de código, após ter aplicado o comando `git init` , por curiosidade digite o comando que verifica TODOS os arquivos presentes na pasta (se você escolheu o `Easy Way`, a lista de comandos está na linha 166 deste documento);
+	  
+	  *Importante: Lembre-se, se e somente se, estiver dentro das 'Aspas Simples' , caso queira copie e cole, mas **SEM AS 'ASPAS SIMPLES'**.
 
       Deve verificar que há algo surpreendente temos arquivos escondidos!! Esses arquivos são parte do funcionamento do Git, por isso não os altere.
 
       Agora vamos verificar se está tudo ok, utilize o comando:
 
-         'git status';
+         'git status'
 
-      Você receberá uma mensagem de erro, dizendo que os arquivos 'index.html', 'style.css' e 'script.js' não estão sendo monitorados e para isso devemos adiciona-los aos arquivos a serem monitorados, execute o comando para adicionar:
+      Você receberá uma mensagem de erro, dizendo que os arquivos `index.html`, `style.css` e `script.js` não estão sendo monitorados e para isso devemos adiciona-los aos arquivos a serem monitorados, execute o comando para adicionar:
 
     Podemos fazer de 3 formas:
 
        Uma das possibilidade é adicionar um de cada vez,
 
-         'git add index.html';
-         'git add style.css';
-         'git add script.js';
+         'git add index.html'
+         'git add style.css'
+         'git add script.js'
 
        Assim também é possível, adicionando cada um dos arquivos, porém de uma única vez,
 
-       	 'git add index.html style.css script.js';
+       	 'git add index.html style.css script.js'
 
        E a versão mais simples, que adiciona todo e qualquer arquivo não monitorado e/ou modificado sem precisar escrever um a um:
 
-       	 'git add .';
+       	 'git add .'
 
       O ponto nesse caso significa que serão adicionados todos os arquivos que não estão sendo monitorados.
 
@@ -520,11 +524,11 @@ Introdução:
 
    			'git commit'
 
-	- O significado de -m é 'mensage' ou seja esse deixará a mensagem, mas ainda precisamos adicionar qual mensagem você quer deixar;
+	- O significado de -m é `mensage` ou seja esse deixará a mensagem, mas ainda precisamos adicionar qual mensagem você quer deixar;
 
        		'git commit -m'
 
-	- Agora sim adicionamos uma mensagem que deve ser escrita dentro das "Aspas duplas" e sem acentuação.
+	- Agora sim adicionamos uma mensagem que deve ser escrita dentro das "Aspas Duplas", sem acentuação e as "Aspas Duplas" devem estar na mensagem.
 
        		'git commit -m "Meu primeiro commit, um projeto incrivel está por vir"'
 
@@ -539,7 +543,7 @@ Introdução:
 		  adicioando a letra 'a' entre o '-' e o 'm';
 
       Vamos agora escrever uma frase e fazer aparecer no navegador!
-      Abra o arquivo 'index.html' no seu VSCODE, e vamos prosseguir escrevendo a seguinte linha de código:
+      Abra o arquivo `index.html` no seu VSCODE, e vamos prosseguir escrevendo a seguinte linha de código:
 
           '<div>Você é uma pessoa INCRÍVEL e veja tudo que já fez até aqui!</div>';
 
@@ -551,7 +555,7 @@ Introdução:
 
         	Entre no site e faça o login, terá que criar um repositório lá, procure pela opção "+ New repository".
 
-        Na próxima página adicione o nome do seu repositório (exemplo:"projeto-1-DoBasicoAoInfinito" utilize o mesmo nome que usou na pasta de preferência). As configurações deixe padrão.
+        Na próxima página adicione o nome do seu repositório (exemplo: `projeto-1-DoBasicoAoInfinito` utilize o mesmo nome que usou na pasta de preferência). As configurações deixe padrão.
 
         	Feito isso encontre a opção "Create repository" e clique.
 
@@ -561,12 +565,12 @@ Introdução:
 
           Vamos precisar dela depois.
 
-        A partir daqui vamos voltar para o terminal do VSCODE;
+        A partir daqui vamos voltar para o terminal do VSCODE;  
         Digite os seguintes comandos:
 
-          'git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"'
-          'git config --global user.name "nome-do-seu-usuario-de-login-do-github"'
-          'git config --global core.editor "code --wait"'
+          'git config --global user.email email-que-usou-pra-criar-a-conta-do-github'
+          'git config --global user.name nome-do-seu-usuario-de-login-do-github'
+          'git config --global core.editor code --wait'
 
         Para conferirmos se está tudo ok, você deve digitar o seguinte comando:
 

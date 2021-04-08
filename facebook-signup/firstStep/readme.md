@@ -27,9 +27,6 @@ Introdução:
 - [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
 
 	- [Hard Way](##'hard-way')
-      - [O Início](###o-início)
-      - [O Meio](###o-meio)
-      - [E o Fim](###e-o-fim)
 
 	- [Easy Way](##'easy-way')
 
@@ -141,7 +138,10 @@ Introdução:
 		do parênteses a nomenclatura em português), quando aplicável.
 
 	Caso tenha alguma dificuldade dá um google.
+	
+**Agora com nosso ambiente pronto, podemos dizer que "É hora de mostrar o poder do Megazord"**
 
+![Megazord Formado](https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/public/gifs/megazordSequenciaAtivada.gif)
 
 ## Avisos Importantes
 
@@ -484,6 +484,8 @@ Introdução:
 
           Aos poucos vemos o sentido de certas práticas, e só podemos tratar com seriedade quando
 		  entendemos o verdadeiro sentido de cada uma dessas práticas.
+
+	![Fusão Goten e Trunks](https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/public/gifs/fusaoDBZ.gif)
 
       Voltando as linhas de código, após ter aplicado o comando `git init` , por curiosidade digite o comando que verifica TODOS os arquivos presentes na pasta (se você escolheu o `Easy Way`, a lista de comandos está na linha 166 deste documento);
 	  

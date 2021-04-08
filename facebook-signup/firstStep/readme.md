@@ -170,10 +170,8 @@ Introdução:
 
       camelCase:
 
-      ```diff
-      -Errado: 'Essa é uma expressão' , 'João e Maria';-
-      +Correto: 'essaEUmaExpressao' , 'joaoEMaria';+
-      ```
+        Errado: 'Essa é uma expressão' , 'João e Maria';
+        Correto: 'essaEUmaExpressao' , 'joaoEMaria';
 
       PascalCase:
 

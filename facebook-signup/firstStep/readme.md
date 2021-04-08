@@ -27,6 +27,9 @@ Introdução:
 - [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
 
 	- [Hard Way](##'hard-way')
+      - [O Início](###o-início)
+      - [O Meio](###o-meio)
+      - [E o Fim](###e-o-fim)
 
 	- [Easy Way](##'easy-way')
 
@@ -146,7 +149,7 @@ Introdução:
 
   - 'Aspas simples' e "Aspas duplas": toda vez que usarmos, no meio de uma explicação, uma certa nomenclatura que aconselho, para chamar sua atenção com palavras chave ou para casos de exemplificação, como o que será descrito mais abaixo quando criarmos um repositório;
 
-  - Para mantermos como padrão ao final de uma 'linha de código' escrita em JavaScript ou Css usaremos ';' , essa padronização é importante para evitarmos falhas desnecessárias;
+  - Para mantermos como padrão ao final de uma `linha de código` escrita em JavaScript ou Css usaremos `;` , essa padronização é importante para evitarmos falhas desnecessárias;
 
   Além dessas, preste bastante atenção a indentação.
 
@@ -155,7 +158,7 @@ Introdução:
 
   - Criando um repositório
 
-    Antes de começar você deve criar uma pasta onde vai salvar seus projetos e repositórios, prefira sempre pastas o mais próximo possível da raíz, evite colocar dentro de muitas pastas, em algum momento você aprenderá a mexer com 'shell script' e para cada pasta que você precisar entrar precisará escrever um comando.
+    Antes de começar você deve criar uma pasta onde vai salvar seus projetos e repositórios, prefira sempre pastas o mais próximo possível da raíz, evite colocar dentro de muitas pastas, em algum momento você aprenderá a mexer com `shell script` e para cada pasta que você precisar entrar precisará escrever um comando.
 
     **Importante já se acostumar com o formato de escrita camelCase.**
 
@@ -181,7 +184,7 @@ Introdução:
 
       Temos aqui dois caminhos e aí é contigo, os dois geram a mesma entrega, mas não tem o mesmo resultado.
 
-      Mas como assim? Você me pergunta.. Existe um caminho que eu vou te ensinar a lidar com o básico dos comando de terminal, e há aquele que é só um copia e cola. Não há demérito nessa parte o objetivo é outro, mas se quer um aprendizado mais aprofundado, aconselho ir pelo 'Hard Way'. Caso prefira o 'Easy Way' siga direto.
+      Mas como assim? Você me pergunta.. Existe um caminho que eu vou te ensinar a lidar com o básico dos comando de terminal, e há aquele que é só um copia e cola. Não há demérito nessa parte o objetivo é outro, mas se quer um aprendizado mais aprofundado, aconselho ir pelo `Hard Way`. Caso prefira o `Easy Way` siga direto.
 
     ### 'Hard Way'
 
@@ -199,7 +202,7 @@ Introdução:
 		  - Mas Jota, porque raios preciso usar o Linux ?
 		  - Mal ouvi falar sobre ele, e me parece algo tão inacabado (vulgo, trabalho mal feito)..
 
-		  O 'OS Unix', ou Operational System Unix(Sistema Operacional Unix), lançado em 1969,
+		  O OS Unix, ou Operational System Unix(Sistema Operacional Unix), lançado em 1969,
 		  foi usado como base para os OSs que temos hoje. Esse ganhou muitas variações, sendo
 		  usado até mesmo para, o que você já deve ter imaginado, macOS.
 		  Isso mesmo o Senhor Jobs usou como base do que é usado nos MACs, por isso lidar com comandos
@@ -236,8 +239,8 @@ Introdução:
           Nada no Windows funciona de primeira, hahahahhahaha! E não entenda isso como algo ruim, ele é feito
 		  para funcionar sem que o usuário precise usar CLI;
 
-          Para abrir o terminal utilize as teclas 'cmd' + 'R';
-          Ao aparecer o 'Executar' digite: 'powershell' , aperte 'Enter';
+          Para abrir o terminal utilize as teclas `cmd` + `R`;
+          Ao aparecer o `Executar` digite: `powershell` , aperte `Enter`;
 
           Você deve visualizar uma janela com o fundo azul, alguns dizeres e a última linha escrita estará assim:
 

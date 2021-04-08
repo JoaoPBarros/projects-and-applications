@@ -27,6 +27,9 @@ Introdução:
 - [Criando e Iniciando um Repositório](#criando-e-iniciando-um-repositório)
 
 	- [Hard Way](##'hard-way')
+      - [O Início](###o-início)
+      - [O Meio](###o-meio)
+      - [E o Fim](###e-o-fim)
 
 	- [Easy Way](##'easy-way')
 
@@ -118,7 +121,7 @@ Introdução:
 
    [Video Auxiliar, Autor: Diego Fernandes](https://www.youtube.com/watch?v=c7P03kkrEG8&t=451s);
 
-      Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações 
+      Aos que forem ver o video, instalem e configurem o tipo de letra e outras modificações
 	  visuais caso queiram, mas elas não influenciarão no nosso progresso.
 
    ###### Pacotes:
@@ -138,7 +141,7 @@ Introdução:
 		do parênteses a nomenclatura em português), quando aplicável.
 
 	Caso tenha alguma dificuldade dá um google.
-	
+
 **Agora com nosso ambiente pronto, podemos dizer que "É hora de mostrar o poder do Megazord"**
 
 ![Megazord Formado](https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/public/gifs/megazordSequenciaAtivada.gif)
@@ -260,9 +263,9 @@ Introdução:
 
 
       _Lembre que as 'Aspas Simples' não fazem parte dos comandos, são somente para ênfase._
-	  
+
 	  Independente do seu OS, os comandos são os mesmos!
-	  
+
       Agora vamos entender os comandos:
 
 	- Lista arquivos e diretórios;
@@ -488,7 +491,7 @@ Introdução:
 	![Fusão Goten e Trunks](https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/public/gifs/fusaoDBZ.gif)
 
       Voltando as linhas de código, após ter aplicado o comando `git init` , por curiosidade digite o comando que verifica TODOS os arquivos presentes na pasta (se você escolheu o `Easy Way`, a lista de comandos está na linha 166 deste documento);
-	  
+
 	  *Importante: Lembre-se, se e somente se, estiver dentro das 'Aspas Simples' , caso queira copie e cole, mas **SEM AS 'ASPAS SIMPLES'**.
 
       Deve verificar que há algo surpreendente temos arquivos escondidos!! Esses arquivos são parte do funcionamento do Git, por isso não os altere.
@@ -567,7 +570,7 @@ Introdução:
 
           Vamos precisar dela depois.
 
-        A partir daqui vamos voltar para o terminal do VSCODE;  
+        A partir daqui vamos voltar para o terminal do VSCODE;
         Digite os seguintes comandos:
 
           'git config --global user.email email-que-usou-pra-criar-a-conta-do-github'

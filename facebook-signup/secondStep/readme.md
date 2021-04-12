@@ -29,6 +29,8 @@ Introdução:
 	  para criar e inicializar um repositório local e vinculamos à um repositório remoto no GitHub setando
 	  as configurações globais básicas durante o processo.
 
+  Se você chegou nesse documento sem passar pelo FirstStep, aconselho a retornar e vê-lo, mesmo que seja um programador experiente, usamos algumas configurações específicas e que serão parte crucial para o desenvolvimento. [Vá para o FirstStep clicando aqui!](https://github.com/JoaoPBarros/projects-and-applications/tree/master/facebook-signup/firstStep)
+
   Agora, temos que começar pelos nossos amigos **`HTML`** e **`CSS`**. Entendemos que nenhum do dois são linguagens de programação, o **`HTML`** - HyperText Markup Language (Linguagem de Marcação de Hipertexto), é uma linguagem de marcação que usamos para construção de páginas na web. O **`CSS`**, temido e querido, é uma mão na roda para os desenvolvedores criarem interfaces e transformarem sites em sites responsivos. O Cascading Style Sheets - **`CSS`**, é lido na forma de cascata, ou seja, existe uma prioridade dos acontecimentos o que faz com que os comandos possam ser sobrescritos.
 
     Digamos que temos o seguinte documento 'CSS':
@@ -178,6 +180,10 @@ Introdução:
 
   Se quiser saber mais sobre **SEO**, dê uma olhada nesse [site - Resultados Digitais](https://resultadosdigitais.com.br/especiais/o-que-e-seo/).
 
+<br>
+
+<button onClick="alert('Seja bem vindo(a) ao Linha de Código.')" type="button" className="testeButton">Teste seu conhecimento</button>
+<script></script>
 
 ## Nossa Primeira Página HTML
 
@@ -201,9 +207,9 @@ Introdução:
   ```
   Por padrão trocaremos sempre o `en` por `pt-br` para declararmos a linguagem da página web em que estamos trabalhando.
 
-  Vamos pensar o `<head>` contém informações mais técnicas sobre a página e o título, mas o conteúdo fica onde?   .   .   .   No `<body>` !
+  Vamos pensar, o `<head>` contém informações mais técnicas sobre a página e o título, ok, mas o conteúdo fica onde?   .   .   .   No `<body>` !
 
-  Beleza, então dado o body vamos dividi-lo:
+  Beleza, então dado o `<body>` vamos dividi-lo:
 
   ```html
   <body>
@@ -223,7 +229,117 @@ Introdução:
   </body>
   ```
 
-  Como podem ver acima usamos algumas tags que já foram citadas é importante lembrar sobre a indentação. Note que quando um elemento é posto dentro de outro esse fica visualmente dentro. É possível perceber que tags `<img/>` são `self closing`, ou seja, são diferentes de tags como a tag `<footer></footer>` que possue tags separadas para abertura e fechamento.
+  Como podem ver acima usamos algumas tags que já foram citadas para já irmos nos acostumando e fixando.
 
-  **Importante:** Enquanto fazemos os códigos tente fazer no seu _VSCODE_, tente replicar as linhas que aparecem aqui! E escreva letra a letra, isso irá ajudar na fixação, tanto através da prática mecânica quanto do visual. Faça em seu arquivo criado `index.html` e clique no meio do arquivo, com o botão direito e ative o `Live Server` essa é a primeira extenção que usaremos, ele abrirá em seu navegador uma página web só que essa vem do seu próprio arquivo.
+  É importante lembrar sobre a indentação, note que quando um elemento é posto dentro de outro esse fica visualmente dentro. É possível perceber que tags `<img/>` são `self closing`, ou seja, são diferentes de outras tags, como a tag `<footer></footer>` que possue tags separadas para abertura e fechamento.
+
+  **Importante:** Enquanto fazemos os códigos tente fazer no seu _VSCODE_, faça do seu jeito ou tente replicar as linhas que aparecem aqui! Escreva letra a letra, isso irá ajudar na fixação, tanto através da prática mecânica quanto do visual. Faça em seu arquivo criado `index.html` e clique no meio do arquivo, com o botão direito e ative o `Live Server` essa é a primeira extenção que usaremos, ele abrirá em seu navegador uma página web só que essa vem do seu próprio arquivo.
   ### **_Suas mãos fizeram o código hahahahha !!_**
+<br>
+
+  ## Tags Semânticas - Parte 2 :dizzy_face:
+
+
+  Nesse momento que já vimos os conceitos básicos vamos passar para a semântica em textos. Sim, sim existe e é **EXTREMAMENTE IMPORTANTE**, eu consideraria a semântica de texto mais importante até do que a estrutural, um dos motivos é que independente de um indexador conseguir usar ou achar a página da web, essa pode ser para algum sistema interno de empresas ou com outros propósitos e o ato de marcar de forma semanticamente correta é o que chamará atenção daquele que está vendo/lendo.
+
+  ### Semântica a nível textual:
+
+  `<a>` :
+
+      A função da tag é descrever um link, em geral conectando documentos ou páginas do próprio site. É usado para documentos que tenha assunto em comum.
+
+  `<em>` :
+
+      Essa por sinal representa o itálico, irá trazer ênfase ao texto em um dado momento que queira separar ou enfatizar um pedaço.
+
+  Importante não confundir com a tag `<i>` a qual também apresenta a mesma ênfase visual, o itálico, mas essa é usada para um texto que é iniciado em _prosa_, como uma palavra estrangeira, pensamentos de um personagem ficcional, ou quando o texto se refere á definição de uma palavra em vez de representar seu significado semântico.
+
+  Exemplo:
+
+  - Versão escrita `html`:
+
+    ```html
+    <p>
+      <i>Canidae</i> é uma família de mamíferos da ordem Carnivora que engloba cães, lobos, chacais, coiotes e raposas.<br>É composto por 35 espécies distribuídas por todos os continentes com exceção da Antártica.
+    <p>
+    ```
+
+  - Versão interpretada do código:
+
+    <p>
+      <i>Canidae</i> é uma família de mamíferos da ordem Carnivora que engloba cães, lobos, chacais, coiotes e raposas.<br>É composto por 35 espécies distribuídas por todos os continentes com exceção da Antártica.
+    <p>
+
+  Duas questões podem ser notadas:
+
+  - A palavra Canidae está em _itálico_;
+  - Existe uma quebra de linha mesmo o texto sendo continuo.
+
+  A quebra é devido a tag `<br>` _óbvio que o motivo dessa tag é porque o brasileiro vive quebrando as regras e dando jeitinho para tudo_ hahahhahaha. **Brincadeira**, o `<br>` vem de _break line_ que seria o sentido de quebrar a linha e é exatamente isso que ele faz, essa não é uma tag semântica, mas quando falamos de textos precisamos falar dela. Essa tag é importante em textos onde a quebra de linha é importante tais como endereços e versos musicais.
+
+  **Nota:** Não use o `<br>` em vão hahahhaha ! É comum acharmos que é uma tag que ajuda no espaçamento entre linhas, mas devemos usar a tag `<p>` ou propriedades de **`CSS`**.
+
+  `<strong>` :
+
+    Similar a tag <em> essa também é utilizada para dar ênfase textual, mas essa é o faz com o impacto visual 'negrito'.
+
+  `<q>` e `<cite>` :
+
+    Essa é bem auto explicativa, são tags para citar, quando estamos usando palavras de outros autores. No geral se usa o <cite> em conjunto com o <q>, o <cite> contendo a origem e o <q> o conteúdo retirado, no entanto também achamos citações diretas com o conteúdo dentro do <cite> e a fonte escrita por extenso.
+
+  `<time>` :
+
+    Essa é uma tag para representar datas, podemos ainda adicionar o atributo 'datetime' para escrever a data de forma padrão.
+  ```html
+    <time datetime="2021-04-08">08/04</time>
+  ```
+_Use esse material para consulta sempre que precisar, durante a caminhada irá precisar!_
+
+<br>
+
+  ## Outras Tags importantes HTML
+
+  Como já descrevemos o posicionamento de elementos são uma questão relevante, agora vamos citar outras tags que usaremos muito.
+
+  ### Tags de cabeçalho:
+
+  Embora seja simples as tags variam de 1 a 6, da maior para menor, `<h1>` ... `<h6>`, essas tem pouca infuência, mas é importante para a estrutura textual de uma página. Importante lembrar que esses cabeçalhos já possuem uma estilização básica.
+
+  Exemplo:
+
+  - Versão escrita `html`:
+
+    ```html
+    <h1>Exemplo</h1>
+    <h2>Exemplo</h2>
+    <h3>Exemplo</h3>
+    <h4>Exemplo</h4>
+    <h5>Exemplo</h5>
+    <h6>Exemplo</h6>
+    ```
+
+  - Versão interpretada do código:
+
+    <h1>Exemplo</h1>
+    <h2>Exemplo</h2>
+    <h3>Exemplo</h3>
+    <h4>Exemplo</h4>
+    <h5>Exemplo</h5>
+    <h6>Exemplo</h6>
+
+<br>
+
+<input>
+<script>(alert("FALA TRYBE AI VOU EU!"))</script>
+
+  Outra tag são as para lista as `<ol>` - lista ordenada e `<ul>` - lista não ordenada, dentro delas ficam contidos os itens ordenados ou não, dependerá da lista, as tags dos elementos das listas são `<li>`
+
+  Para paragráfos temos a tag `<p>`, temos ainda o `<span>` o qual também serve para um conteúdo textual, porém genérico.
+
+  Temos outras tags como `<script>` para incluir um script executável, tags para forms como: `<label>`, `<select>`, `<input>`, `<textarea>`, `<button>` e diversas outras. Veremos elas mais para frente. Caso esteja muito curioso olhe esse site: [Desenvolvedores Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element).
+
+<br>
+
+## O Famigerado **CSS**
+
+  O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.

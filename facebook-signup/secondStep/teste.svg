@@ -2,6 +2,18 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
+
+        .container {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          display: flex;
+          height: 200px;
+          background: rgba(13, 17, 23);
+          align-items: center;
+          justify-content: center;
+        }
+
         .text {
           border-right: 2px solid rgb(255, 255, 255, 0.75);
           color: rgb(255, 255, 255, 0.75);
@@ -41,9 +53,10 @@
 
         }
       </style>
-    </div>
-    <div>
-      <p class="text writeAnimation">Esse é algo que você pode aprender!</p>
+
+      <div class="container">
+        <p class="text writeAnimation">Esse é algo que você pode aprender!</p>
+      </div>
     </div>
   </foreignObject>
 </svg>

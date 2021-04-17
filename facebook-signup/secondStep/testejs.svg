@@ -1,0 +1,71 @@
+<!-- https://github.com/sindresorhus/css-in-readme-like-wat -->
+
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <script>
+      function func1() {
+        console.log("Eu sou uma injeção!")
+      }
+    </script>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+
+        .container {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          display: flex;
+          height: 200px;
+          background: rgba(13, 17, 23);
+          align-items: center;
+          justify-content: center;
+        }
+
+        .text {
+          border-right: 2px solid rgb(255, 255, 255, 0.75);
+          color: rgb(255, 255, 255, 0.75);
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 1.5rem;
+          margin: 0 auto;
+          overflow: hidden;
+          padding-right: 1rem;
+          text-align: center;
+          white-space: nowrap;
+        }
+
+        .writeAnimation {
+          animation: cursorStyle 0.75s steps(60) infinite normal , writing 8s steps(60) 1s infinite normal both;
+        }
+
+        @keyframes cursorStyle {
+
+          from {
+            border-right-color: rgb(255, 255, 255, 0.75);
+          }
+
+          to {
+            border-right-color: transparent;
+          }
+        }
+
+        @keyframes writing {
+
+          0% {
+            width: 0;
+          }
+
+          50%, 100% {
+            width: 27em;
+          }
+
+        }
+      </style>
+
+
+      <div class="container">
+        <p class="text writeAnimation">Essa é uma das utilidades do CSS3 que você pode aprender!</p>
+        <input type="button" onclick="func1()" value="Exibir Alerta" />
+      </div>
+    </div>
+  </foreignObject>
+</svg>

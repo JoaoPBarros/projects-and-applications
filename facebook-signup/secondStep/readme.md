@@ -338,44 +338,4 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
 
   O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.
 
-  <style>
-    .text {
-      border-right: 2px solid rgb(255, 255, 255, 0.75);
-      color: rgb(255, 255, 255, 0.75);
-      font-family: 'Fira Sans', sans-serif;
-      font-size: 1.5rem;
-      margin: 0 auto;
-      overflow: hidden;
-      padding-right: 1rem;
-      text-align: center;
-      white-space: nowrap;
-    }
-
-    .writeAnimation {
-      animation: cursorStyle 0.75s steps(40) infinite normal , writing 5s steps(40) 1s normal both;
-    }
-
-    @keyframes cursorStyle {
-
-      from {
-        border-right-color: rgb(255, 255, 255, 0.75);
-      }
-
-      to {
-        border-right-color: transparent;
-      }
-    }
-
-    @keyframes writing {
-
-      from {
-        width: 0;
-      }
-
-      to {
-        width: 16em;
-      }
-
-    }
-  </style>
-  <p class="text writeAnimation">Esse é algo que você pode aprender!</p>
+  <img src="facebook-signup/secondStep/teste.svg"/>

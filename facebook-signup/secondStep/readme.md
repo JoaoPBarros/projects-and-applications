@@ -338,4 +338,4 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
 
   O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.
 
-  <img src="facebook-signup/secondStep/teste.svg"/>
+  <img src="https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/secondStep/teste.svg" />

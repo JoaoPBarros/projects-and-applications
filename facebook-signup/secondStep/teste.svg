@@ -29,7 +29,7 @@
         }
 
         .writeAnimation {
-          animation: cursorStyle 0.75s steps(40) infinite normal , writing 5s steps(40) 1s normal both;
+          animation: cursorStyle 0.75s steps(60) infinite normal , writing 8s steps(60) 1s infinite normal both;
         }
 
         @keyframes cursorStyle {
@@ -45,11 +45,11 @@
 
         @keyframes writing {
 
-          from {
+          0% {
             width: 0;
           }
 
-          to {
+          50%, 100% {
             width: 27em;
           }
 

@@ -2,11 +2,6 @@
 
 <svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <script>
-      function func1() {
-        console.log("Eu sou uma injeção!")
-      }
-    </script>
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
 
@@ -34,7 +29,8 @@
         }
 
         .writeAnimation {
-          animation: cursorStyle 0.75s steps(60) infinite normal , writing 8s steps(60) 1s infinite normal both;
+          <!-- animation: cursorStyle 0.75s steps(60) infinite normal , writing 8s steps(60) 1s infinite normal both; -->
+          animation: writing 4s steps(60) 1s normal both;
         }
 
         @keyframes cursorStyle {
@@ -61,11 +57,19 @@
         }
       </style>
 
-
       <div class="container">
-        <p class="text writeAnimation">Essa é uma das utilidades do CSS3 que você pode aprender!</p>
+        <p id="123" class="text writeAnimation">Essa é uma das utilidades do CSS3 que você pode aprender!</p>
         <input type="button" onclick="func1()" value="Exibir Alerta" />
       </div>
+      <script>
+      function func1() {
+        console.log("Eu sou uma injeção!")
+      }
+
+
+      document.getElementById("123").addEventListener("animationend", () => (console.log("Eu sou uma injeção!")));
+
+      </script>
     </div>
   </foreignObject>
 </svg>

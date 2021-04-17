@@ -182,9 +182,6 @@ Introdução:
 
 <br>
 
-<button onClick="alert('Seja bem vindo(a) ao Linha de Código.')" type="button" className="testeButton">Teste seu conhecimento</button>
-<script></script>
-
 ## Nossa Primeira Página HTML
 
   Nesse momento, com os conhecimentos anteriores, vamos focar na construção de uma primeira página HTML.
@@ -329,9 +326,6 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
 
 <br>
 
-<input>
-<script>(alert("FALA TRYBE AI VOU EU!"))</script>
-
   Outra tag são as para lista as `<ol>` - lista ordenada e `<ul>` - lista não ordenada, dentro delas ficam contidos os itens ordenados ou não, dependerá da lista, as tags dos elementos das listas são `<li>`
 
   Para paragráfos temos a tag `<p>`, temos ainda o `<span>` o qual também serve para um conteúdo textual, porém genérico.
@@ -343,3 +337,46 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
 ## O Famigerado **CSS**
 
   O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap');
+    .text {
+      border-right: 2px solid rgb(255, 255, 255, 0.75);
+      color: rgb(255, 255, 255, 0.75);
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 3em;
+      margin: 0 auto;
+      overflow: hidden;
+      padding-right: 1rem;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .writeAnimation {
+      animation: cursorStyle 0.75s steps(40) infinite normal , writing 5s steps(40) 1s normal both;
+    }
+
+    @keyframes cursorStyle {
+
+      from {
+        border-right-color: rgb(255, 255, 255, 0.75);
+      }
+
+      to {
+        border-right-color: transparent;
+      }
+    }
+
+    @keyframes writing {
+
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 21em;
+      }
+
+    }
+  </style>
+  <p className="text writeAnimation">Esse é algo que você pode aprender!</p>

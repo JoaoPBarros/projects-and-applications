@@ -339,12 +339,11 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
   O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&display=swap');
     .text {
       border-right: 2px solid rgb(255, 255, 255, 0.75);
       color: rgb(255, 255, 255, 0.75);
       font-family: 'Fira Sans', sans-serif;
-      font-size: 3em;
+      font-size: 1.5rem;
       margin: 0 auto;
       overflow: hidden;
       padding-right: 1rem;
@@ -374,9 +373,9 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
       }
 
       to {
-        width: 21em;
+        width: 16em;
       }
 
     }
   </style>
-  <p className="text writeAnimation">Esse é algo que você pode aprender!</p>
+  <p class="text writeAnimation">Esse é algo que você pode aprender!</p>

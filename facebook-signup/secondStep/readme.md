@@ -389,7 +389,7 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
 
   Note que essa caixa pode estar posicionada à esquerda, ao centro e à direita e mais importante essa caixa está contida dentro de outra caixa, a qual limita o tamanho máximo.
 
-  Perceba que agora lidamos com dois objetos um que é contido pelo outro e para lidar de forma melhor iremos chamar o elemento mais externo de elemento _**Pai**_ e ao elemento mais interno iremos chamar de elemento _**Filho**_.
+  Perceba, por mais que não esteja aparente, lidamos com dois objetos, um que é contido pelo outro e para lidar de forma melhor iremos chamar o elemento mais externo de elemento _**Pai**_ e ao elemento mais interno iremos chamar de elemento _**Filho**_.
 
   Podemos editar os posicionamentos de forma estática ou usamos formas dinâmicas com o _**Flexbox**_. Ao setarmos no elemento _**Pai**_ '_display: Flex_' abrimos a possibilidade de usarmos também propriedades que mudam as posições e interações entre os elementos _**Filhos**_. Como no caso estamos com somente um elemento filho, iremos falar sobre posicionamentos com um único elemento.
 

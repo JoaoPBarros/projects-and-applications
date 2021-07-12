@@ -88,6 +88,11 @@ Introdução:
         - margin-right !important;
               ...;
 
+  Não se assuste, ao primeiro olhar parece complicado, mas não é, mais para frente daremos mais ênfase ao **`CSS`** e a explicação sobre prioridades acima fará muito mais sentido. Vale ressaltar que a ideia de uma programação sequencial foi uma das primeiras lógicas de programação e por isso deve ser ensinada e entendida primeiro para posteriormente entendermos outros tipos de lógica.
+
+  Nesse curso, de forma mais subjetiva você também está sendo levado a compreender lógica e isso vai auxiliar nas formas de encontrar soluções, por isso foque 100% no que está escrito, tudo foi pensado para levar você realmente do zero até o desenvolvimento completo.
+
+  <br>
 
   Retornando agora para o **`HTML`**, essa linguagem demanda uma estruturação. É muito importante que sejam bem pensadas as formatações para melhorar o SEO do site, e isso é feito com as tags semânticas.
 
@@ -232,6 +237,7 @@ Introdução:
 
   **Importante:** Enquanto fazemos os códigos tente fazer no seu _VSCODE_, faça do seu jeito ou tente replicar as linhas que aparecem aqui! Escreva letra a letra, isso irá ajudar na fixação, tanto através da prática mecânica quanto do visual. Faça em seu arquivo criado `index.html` e clique no meio do arquivo, com o botão direito e ative o `Live Server` essa é a primeira extenção que usaremos, ele abrirá em seu navegador uma página web só que essa vem do seu próprio arquivo.
   ### **_Suas mãos fizeram o código hahahahha !!_**
+
 <br>
 
   ## Tags Semânticas - Parte 2 :dizzy_face:
@@ -339,3 +345,52 @@ _Use esse material para consulta sempre que precisar, durante a caminhada irá p
   O **`CSS`** como já citamos acima, é um mecanimo para adicionarmos estilo à um documento web.
 
   <img src="https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/secondStep/teste.svg" />
+
+  Esse texto acima é só uma tag `p` simples com o texto:_Essa é uma das utilidades do CSS3 que você pode aprender!_ e olha que irado!!! Esse texto simples tem:
+  - uma **fonte** diferente,
+  - tem um **tamanho** diferente,
+  - tem um **posicionamento** diferente,
+  - esse texto se **movimenta** de acordo com um padrão,
+  - existe uma **coloração** específica tanto para o **fundo** quanto para o **texto**.
+
+  E todas essas modificações só são possiveis com **`CSS`**.
+
+  OBS: _Para os mais experientes: sim essa imagem foi feita em **`CSS PURO`** e se você quiser saber mais sobre pode vistoriar a imagem original que eu desenvolvi ou procurar na documentação **ForeignObject in SVG**_
+
+  Não se assuste tudo que aprendi até agora foi fruto da inata curiosidade que todo desenvolvedor adquiri ao longo do tempo, é estasiante a vontade de achar a solução para um problema.
+
+  Lembra que lá em cima comentei sobre questões de especificidade ? Pense no seu dia manhã, tarde e noite.
+  O que é mais importante de manhã ?
+  - Tomar café da manhã;
+  - Escovar os dentes;
+  - Olhar o celular;
+  - Almoçar;
+  - Vestir o pijama;
+  - Ir dormir
+
+  Note que são decisões que são tomadas, pela manhã, acredito que iremos _tomar café da manhã e escovar os dentes_ ou _escovar os dentes_ e _tomar café da manhã_, mas ninguém pretende almoçar pela manhã, ou vestir o pijama ou ainda ir dormir.
+
+  Na programação funciona da mesma forma quando pensamos na especificidade, pensamos o que é prioridade no nosso código, o que deve ser resolvido primeiro, o que trará maior entendimento sobre o que queremos passar ou definir.
+
+    Exemplo:
+
+      Existem caractéres que precisam ter uma maior visibilidade, esses precisam estar claros e entendíveis a todos, como textos de termos ou regras;
+
+      Agora imaginem se aplicamos as mesmas características de um texto que precisa ser legível à uma senha ? Sim, não faz sentido algum, porque a senha ou password é para ficar escondido mesmo quando estamos digitando.
+
+  Saber usar bem cada estilização é tão importante quando saber sobre as prioridades, através dela podemos, por exemplo impedir que pessoas passem por dificuldades de leitura e compreenção, simplemente dando um tamanho maior entre as linhas, ou preparando cores de fundo e cores de texto que aumentem suas relações de contraste.
+
+  Chegamos até aqui e agora vamos entender sobre _BOX_, sim sobre _BOX_.
+  Vamos pensar como os nossos elementos se comportam e sim eles se comportam como caixas e os comandos são referenciadores das caixas.
+
+  Olhe bem para a imagem abaixo a ideia é a percepção de movimento da caixa.
+
+  <img src="https://github.com/JoaoPBarros/projects-and-applications/blob/master/facebook-signup/secondStep/box.svg" />
+
+  Note que essa caixa pode estar posicionada à esquerda, ao centro e à direita e mais importante essa caixa está contida dentro de outra caixa, a qual limita o tamanho máximo.
+
+  Perceba que agora lidamos com dois objetos um que é contido pelo outro e para lidar de forma melhor iremos chamar o elemento mais externo de elemento _**Pai**_ e ao elemento mais interno iremos chamar de elemento _**Filho**_.
+
+  Podemos editar os posicionamentos de forma estática ou usamos formas dinâmicas com o _**Flexbox**_. Ao setarmos no elemento _**Pai**_ '_display: Flex_' abrimos a possibilidade de usarmos também propriedades que mudam as posições e interações entre os elementos _**Filhos**_. Como no caso estamos com somente um elemento filho, iremos falar sobre posicionamentos com um único elemento.
+
+  Após adicionarmos o '_display: Flex_' ao elemento pai, flexibilizamos o comportamento dos elementos filhos dentro do elemento pai. Agora vamos usar o '_**align-items**_' essa propriedade vai posicionar no eixo Y, e para posicionarmos em relação ao eixo X usaremos _**justify-content**_.
